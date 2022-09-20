@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="1000.0" minWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="avt.caspar.client.controllers.MarathonController">
+   <children>
+      <SplitPane dividerPositions="0.1991657977059437" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane SplitPane.resizableWithParent="false" />
+          <AnchorPane prefHeight="998.0" prefWidth="1467.0" SplitPane.resizableWithParent="false">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#testSQLQuery" text="Button" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
